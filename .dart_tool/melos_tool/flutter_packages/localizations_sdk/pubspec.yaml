@@ -1,0 +1,17 @@
+# Generated file - do not commit this file.
+description: "A new Flutter package project."
+name: "localizations_sdk"
+version: "0.0.1"
+dependencies: 
+  flutter: 
+    sdk: "flutter"
+  flutter_localizations: 
+    sdk: "flutter"
+dev_dependencies: 
+  flutter_lints: "^1.0.0"
+  flutter_test: 
+    sdk: "flutter"
+environment: 
+  flutter: ">=1.17.0"
+  sdk: ">=2.16.0 <3.0.0"
+flutter: null
