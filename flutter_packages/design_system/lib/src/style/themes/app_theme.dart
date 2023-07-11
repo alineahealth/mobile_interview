@@ -10,26 +10,21 @@ class AppThemes {
         primaryColorDark: Colors.black,
         canvasColor: const Color(0xff303030),
         scaffoldBackgroundColor: colors.kcScafoldBackground,
-        bottomAppBarColor: colors.kcCardBackground,
         cardColor: colors.kcCardBackground,
         fontFamily: GoogleFonts.inter().fontFamily,
         dividerColor: colors.kcGrey,
         highlightColor: const Color(0x40cccccc),
         splashColor: const Color(0x40cccccc),
-        selectedRowColor: const Color(0xfff5f5f5),
         unselectedWidgetColor: colors.kcLightGrey,
         disabledColor: colors.kcMediumGrey,
-        toggleableActiveColor: colors.kcSecondary,
         appBarTheme: AppBarTheme(
           backgroundColor: colors.kcSecondary,
           elevation: 0,
         ),
         secondaryHeaderColor: colors.kcSecondary,
-        backgroundColor: colors.kcScafoldBackground,
         dialogBackgroundColor: colors.kcCardBackground,
         indicatorColor: const Color.fromRGBO(130, 11, 138, 1),
         hintColor: const Color(0x80ffffff),
-        errorColor: colors.kcError,
         outlinedButtonTheme: OutlinedButtonThemeData(
           style: ButtonStyle(
             shape: MaterialStateProperty.all(
@@ -88,79 +83,79 @@ class AppThemes {
           ),
         ),
         textTheme: TextTheme(
-          headline1: TextStyle(
+          displayLarge: TextStyle(
             fontFamily: GoogleFonts.inter().fontFamily,
             color: colors.kcTextColor,
             fontWeight: FontWeight.w400,
             fontStyle: FontStyle.normal,
           ),
-          headline2: TextStyle(
+          displayMedium: TextStyle(
             fontFamily: GoogleFonts.inter().fontFamily,
             color: colors.kcTextColor,
             fontWeight: FontWeight.w400,
             fontStyle: FontStyle.normal,
           ),
-          headline3: TextStyle(
+          displaySmall: TextStyle(
             fontFamily: GoogleFonts.inter().fontFamily,
             color: colors.kcTextColor,
             fontWeight: FontWeight.w400,
             fontStyle: FontStyle.normal,
           ),
-          headline4: TextStyle(
+          headlineMedium: TextStyle(
             fontFamily: GoogleFonts.inter().fontFamily,
             color: colors.kcTextColor,
             fontWeight: FontWeight.w400,
             fontStyle: FontStyle.normal,
           ),
-          headline5: TextStyle(
+          headlineSmall: TextStyle(
             fontFamily: GoogleFonts.inter().fontFamily,
             color: colors.kcTextColor,
             fontWeight: FontWeight.w400,
             fontStyle: FontStyle.normal,
           ),
-          headline6: TextStyle(
+          titleLarge: TextStyle(
             fontFamily: GoogleFonts.inter().fontFamily,
             color: colors.kcTextColor,
             fontWeight: FontWeight.w400,
             fontStyle: FontStyle.normal,
           ),
-          subtitle1: TextStyle(
+          titleMedium: TextStyle(
             fontFamily: GoogleFonts.inter().fontFamily,
             color: colors.kcTextColor,
             fontWeight: FontWeight.w400,
             fontStyle: FontStyle.normal,
           ),
-          bodyText1: TextStyle(
+          bodyLarge: TextStyle(
             fontFamily: GoogleFonts.inter().fontFamily,
             color: colors.kcTextColor,
             fontWeight: FontWeight.w400,
             fontStyle: FontStyle.normal,
           ),
-          bodyText2: TextStyle(
+          bodyMedium: TextStyle(
             fontFamily: GoogleFonts.inter().fontFamily,
             color: colors.kcTextColor,
             fontWeight: FontWeight.w400,
             fontStyle: FontStyle.normal,
           ),
-          caption: TextStyle(
+          bodySmall: TextStyle(
             fontFamily: GoogleFonts.inter().fontFamily,
             color: colors.kcTextColor,
             fontWeight: FontWeight.w400,
             fontStyle: FontStyle.normal,
           ),
-          button: TextStyle(
+          labelLarge: TextStyle(
             fontFamily: GoogleFonts.inter().fontFamily,
             color: colors.kcTextColor,
             fontWeight: FontWeight.w400,
             fontStyle: FontStyle.normal,
           ),
-          subtitle2: TextStyle(
+          titleSmall: TextStyle(
             fontFamily: GoogleFonts.inter().fontFamily,
             color: colors.kcTextColor,
             fontWeight: FontWeight.w400,
             fontStyle: FontStyle.normal,
           ),
-          overline: TextStyle(
+          labelSmall: TextStyle(
             fontFamily: GoogleFonts.inter().fontFamily,
             color: colors.kcTextColor,
             fontWeight: FontWeight.w400,
@@ -168,79 +163,79 @@ class AppThemes {
           ),
         ),
         primaryTextTheme: TextTheme(
-          headline1: TextStyle(
+          displayLarge: TextStyle(
             fontFamily: GoogleFonts.inter().fontFamily,
             color: colors.kcTextColor,
             fontWeight: FontWeight.w400,
             fontStyle: FontStyle.normal,
           ),
-          headline2: TextStyle(
+          displayMedium: TextStyle(
             fontFamily: GoogleFonts.inter().fontFamily,
             color: colors.kcTextColor,
             fontWeight: FontWeight.w400,
             fontStyle: FontStyle.normal,
           ),
-          headline3: TextStyle(
+          displaySmall: TextStyle(
             fontFamily: GoogleFonts.inter().fontFamily,
             color: colors.kcTextColor,
             fontWeight: FontWeight.w400,
             fontStyle: FontStyle.normal,
           ),
-          headline4: TextStyle(
+          headlineMedium: TextStyle(
             fontFamily: GoogleFonts.inter().fontFamily,
             color: colors.kcTextColor,
             fontWeight: FontWeight.w400,
             fontStyle: FontStyle.normal,
           ),
-          headline5: TextStyle(
+          headlineSmall: TextStyle(
             fontFamily: GoogleFonts.inter().fontFamily,
             color: colors.kcTextColor,
             fontWeight: FontWeight.w400,
             fontStyle: FontStyle.normal,
           ),
-          headline6: TextStyle(
+          titleLarge: TextStyle(
             fontFamily: GoogleFonts.inter().fontFamily,
             color: colors.kcTextColor,
             fontWeight: FontWeight.w400,
             fontStyle: FontStyle.normal,
           ),
-          subtitle1: TextStyle(
+          titleMedium: TextStyle(
             fontFamily: GoogleFonts.inter().fontFamily,
             color: colors.kcTextColor,
             fontWeight: FontWeight.w400,
             fontStyle: FontStyle.normal,
           ),
-          bodyText1: TextStyle(
+          bodyLarge: TextStyle(
             fontFamily: GoogleFonts.inter().fontFamily,
             color: colors.kcTextColor,
             fontWeight: FontWeight.w400,
             fontStyle: FontStyle.normal,
           ),
-          bodyText2: TextStyle(
+          bodyMedium: TextStyle(
             fontFamily: GoogleFonts.inter().fontFamily,
             color: colors.kcTextColor,
             fontWeight: FontWeight.w400,
             fontStyle: FontStyle.normal,
           ),
-          caption: TextStyle(
+          bodySmall: TextStyle(
             fontFamily: GoogleFonts.inter().fontFamily,
             color: colors.kcTextColor,
             fontWeight: FontWeight.w400,
             fontStyle: FontStyle.normal,
           ),
-          button: TextStyle(
+          labelLarge: TextStyle(
             fontFamily: GoogleFonts.inter().fontFamily,
             color: colors.kcTextColor,
             fontWeight: FontWeight.w400,
             fontStyle: FontStyle.normal,
           ),
-          subtitle2: TextStyle(
+          titleSmall: TextStyle(
             fontFamily: GoogleFonts.inter().fontFamily,
             color: colors.kcTextColor,
             fontWeight: FontWeight.w400,
             fontStyle: FontStyle.normal,
           ),
-          overline: TextStyle(
+          labelSmall: TextStyle(
             fontFamily: GoogleFonts.inter().fontFamily,
             color: colors.kcTextColor,
             fontWeight: FontWeight.w400,
@@ -416,7 +411,7 @@ class AppThemes {
           selectionHandleColor: Color(0xffff5722),
         ),
         colorScheme: ColorScheme.fromSwatch(
-            primarySwatch: const MaterialColor(
+                primarySwatch: const MaterialColor(
           4280361249,
           {
             50: Color(0xfff2f2f2),
@@ -430,6 +425,10 @@ class AppThemes {
             800: Color(0xff333333),
             900: Color(0xff191919)
           },
-        )).copyWith(secondary: Colors.white),
+        ))
+            .copyWith(secondary: Colors.white)
+            .copyWith(error: colors.kcError)
+            .copyWith(background: colors.kcScafoldBackground),
+        bottomAppBarTheme: BottomAppBarTheme(color: colors.kcCardBackground),
       );
 }
