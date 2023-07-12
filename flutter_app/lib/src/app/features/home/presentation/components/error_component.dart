@@ -19,12 +19,13 @@ class ErrorComponent extends ConsumerWidget {
           children: [
             BoxText.bodyBold(
               message,
-              color: Theme.of(context).errorColor,
+              color: Theme.of(context).colorScheme.error,
             ),
             Padding(
               padding: const EdgeInsets.all(Spacing.x4),
               child: Icon(Icons.restart_alt_rounded,
-                  size: Spacing.x10, color: Theme.of(context).errorColor),
+                  size: Spacing.x10,
+                  color: Theme.of(context).colorScheme.error),
             )
           ],
         ),

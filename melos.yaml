@@ -28,7 +28,7 @@ scripts:
     run: melos exec -- flutter analyze .
     description: Run `flutter analyze` in all packages.
 
-  update:
+  get:
     run: melos exec -- flutter pub get
 
   upgrade:

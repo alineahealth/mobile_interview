@@ -26,7 +26,7 @@ class SearchResultComponent extends ConsumerWidget {
                   onTap: () => ref.read(searchStateProvider.notifier).reload(),
                   child: Icon(
                     Icons.restart_alt,
-                    color: Theme.of(context).errorColor,
+                    color: Theme.of(context).colorScheme.error,
                     size: Spacing.x10,
                   ),
                 ),
